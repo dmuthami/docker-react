@@ -8,6 +8,6 @@ RUN npm install
 
 RUN npm i --save-dev @testing-library/jest-dom
 
-# COPY . .
+COPY . .
 
 CMD ["npm","run","start"]
